@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "STORYBOOK_PORT=$STORYBOOK_PORT storybook dev -p $STORYBOOK_PORT",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic --project-token chpt_0a8df57228539b5"
+    "chromatic": "CHROMATIC_PROJECT_TOKEN=$CHROMATIC_PROJECT_TOKEN npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
   },
   "keywords": [],
   "author": "",
@@ -28,5 +27,7 @@
   },
   "volta": {
     "node": "18.17.1"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "sb_html@1.0.0"
 }
