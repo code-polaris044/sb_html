@@ -14,7 +14,7 @@ export const Default = () => {
 
   // ローディングが完了したら要素を更新
   setTimeout(() => {
-    container.innerHTML = "ローディングが完了しました";
+    container.innerHTML = "ローディングが完了";
   }, 2000); // 2秒後にローディングが完了したと仮定
 
   return container;

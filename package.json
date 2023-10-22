@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --project-token chpt_0a8df57228539b5"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@storybook/html": "^7.5.1",
     "@storybook/html-vite": "^7.5.1",
     "@storybook/testing-library": "^0.2.2",
+    "chromatic": "^7.4.0",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
